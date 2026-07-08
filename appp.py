@@ -114,4 +114,5 @@ if submit_button and st.session_state["city_input_key"]:
             except requests.exceptions.Timeout:
                 st.error("⏳ タイムアウト：APIからの応答が3秒以内にありませんでした。")
             except requests.exceptions.RequestException:
+                
                 st.error("🌐 ネットワーク接続エラーが発生しました。")
