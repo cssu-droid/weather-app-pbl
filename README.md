@@ -19,4 +19,4 @@ PBL（課題解決型学習）の一環として開発している、気象病�
 事前に必要なライブラリ（`streamlit`, `requests`, `pandas`, `plotly`）をインストールした状態で、VS Codeのターミナルにて以下のコマンドを実行してください。
 
 ```bash
-streamlit run appp.py
+python -m streamlit run appp.py
